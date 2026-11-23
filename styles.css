@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: radial-gradient(circle at top, #1e222d 0%, #111319 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 460px;
+}
+
+.card {
+    background-color: #181b23;
+    border: 1px solid #2b303e;
+    border-radius: 16px;
+    padding: 40px 32px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.badge {
+    display: inline-block;
+    background-color: rgba(88, 101, 242, 0.15);
+    color: #7984f5;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 999px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 12px;
+    letter-spacing: -0.02em;
+}
+
+p {
+    color: #a0a8b8;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.discord-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    background-color: #5865F2;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 14px 24px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.discord-btn:hover {
+    background-color: #4752C4;
+    transform: translateY(-2px);
+}
+
+.discord-btn:active {
+    transform: translateY(0);
+}
+
+.discord-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.invite-url {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+    color: #6c7486;
+}
+
+.invite-url span {
+    color: #a0a8b8;
+    font-family: monospace;
+}
